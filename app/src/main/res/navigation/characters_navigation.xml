@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/characterListFragment">
+
+
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="ar.com.jdodevelopment.rickandmorty.ui.characterlist.CharacterListFragment"
+        tools:layout="@layout/character_list_fragment">
+
+        <action
+            android:id="@+id/actionOpenDetail"
+            app:destination="@id/characterDetailFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="ar.com.jdodevelopment.rickandmorty.ui.characterdetail.CharacterDetailFragment"
+        android:label="ForecastFragment"
+        tools:layout="@layout/character_detail_fragment" >
+        <argument
+            android:name="character"
+            app:argType="ar.com.jdodevelopment.rickandmorty.data.model.Character" />
+    </fragment>
+
+</navigation>

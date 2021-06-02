@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rick and Morty API Demo</string>
+
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="exit">Salir</string>
+    <string name="confirm_exit">¿Realmente desea salir?</string>
+    <string name="retry">Reintentar</string>
+    <string name="empty_list">Lista vacía</string>
+
+    <!--    Errors-->
+    <string name="no_internet_conection">No hay conexíon a internet.</string>
+    <string name="se_ha_producido_un_error">Se ha producido un error.</string>
+    <string name="location">Location</string>
+    <string name="gender">Gender</string>
+    <string name="origin">Origin</string>
+    <string name="species">Species</string>
+    <string name="type">Type</string>
+
+</resources>
